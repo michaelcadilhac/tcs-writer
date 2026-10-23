@@ -1,6 +1,6 @@
 # Coordinating the five writing roles
 
-This repository contains reusable instructions for ICALP Track B and related TCS papers. Coordinate the roles below without replacing their detailed instructions with a summary. The scientist's scientific record persists across revisions; each fresh student receives only the current paper and general reading instructions.
+Use this file for task coordination. Human setup instructions and example requests belong in [README.md](README.md); scientific and editorial criteria belong in the five role files linked below. Read the applicable role files rather than replacing their detailed requirements with a summary.
 
 ## Scope and authority
 
@@ -9,6 +9,19 @@ This repository contains reusable instructions for ICALP Track B and related TCS
 - [WRITER.md](WRITER.md) supplies the shared writing requirements. Each role also reads its own file. These coordination instructions do not weaken either set of requirements.
 - The scientist adjudicates scientific questions with explicit arguments. The student independently judges accessibility; the reviewer independently challenges correctness and presentation. Scientific authority is not a reason to dismiss either reader's objection.
 - Use separate agents when requested and supported. If independent agents or isolated contexts are unavailable, state that limitation. Do not present one assistant's successive role changes as independent reviews.
+
+## Project brief
+
+Before work on a paper, locate or obtain a brief identifying:
+
+- The scientific question, contribution, and status of the claims.
+- The current manuscript and supporting source or rendered files.
+- Which version may be edited, which versions must be preserved, and whether a new version is required.
+- The requested task and review scope.
+- The submission format, length limit, and available compilation or rendering tools, where relevant.
+- Where the scientist's continuing record and review reports are kept.
+
+The brief supplies the paper's facts and constraints, not a replacement audience or assumptions imported from a different paper. A fresh student receives only the permitted reading material specified below, not the accumulated project brief or its revision history.
 
 ## Responsibilities and inputs
 
@@ -54,7 +67,7 @@ If isolation is unavailable, report the retained context and the limited status 
 
 ## Coordinate a revision
 
-1. Identify the current source, permitted edits, protected versions, requested review scope, and the location of the scientist's record. Read the current files before editing; preserve intervening user changes.
+1. Read the project brief and current source before editing; preserve intervening user changes.
 2. Have the scientist establish the scientific content and the validity of proposed substantive changes before the writer implements them. Unresolved claims remain unresolved; do not improve the prose by silently strengthening a conclusion or deleting a hypothesis.
 3. Designate one writer to integrate source edits. Readers report issues and proposed repairs unless editing has been explicitly assigned to them. Avoid simultaneous edits to the same manuscript.
 4. Prepare a fixed revision for review and identify it by version and, where practical, a content hash. Reviews concern those actual files. If the user edits them meanwhile, preserve those edits and identify which review results need updating.
@@ -70,7 +83,7 @@ Independent checks of the same fixed revision can run in parallel when authorize
 
 Keep paper-specific working files in that paper's workspace, at paths selected for that project. Maintain:
 
-- A brief identifying the authorized source, version policy, fixed audience, and current task.
+- The current project brief.
 - The scientist's indexed, continuing record with complete supporting arguments.
 - A revision record identifying the source and rendered artifact actually reviewed.
 - Separate student and reviewer reports with locations, findings, scope, verdict, and unresolved issues; include copy-editor reports only for requested passes.
@@ -82,4 +95,4 @@ Before reporting a fully reviewed manuscript as acceptable, establish that the s
 
 ## Maintaining this instruction repository
 
-When the user asks to maintain tcs-writer itself, edit the requested guidance rather than invoking a manuscript-review cycle. Preserve the detailed requirements in all five role files; update README.md when coordination or usage changes. Check relative links and consistency of the fixed roles. Do not add paper sources, scientific records, private review reports, or submission-specific settings to this reusable repository. If integrating these instructions into another workspace, preserve its existing AGENTS.md and add references rather than overwriting unrelated instructions.
+When the user asks to maintain tcs-writer itself, edit the requested guidance rather than invoking a manuscript-review cycle. Preserve the detailed requirements in all five role files. Keep human setup and usage examples in README.md, coordination rules in this file, and role-specific criteria in the corresponding role file. Link to the authoritative section instead of maintaining duplicate instructions. Update cross-references when moving material, and check relative links and consistency of the fixed roles. Do not add paper sources, scientific records, private review reports, or submission-specific settings to this reusable repository.
