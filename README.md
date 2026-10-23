@@ -14,6 +14,8 @@ Reusable instructions for writing and checking theoretical computer science pape
 
 The scientist is an expert in ICALP Track B and related TCS topics. That expertise does not remove the need to verify unfamiliar mathematics or external results. The reader always has the same first-year background; do not make an explanation acceptable by quietly treating the student as a specialist.
 
+[AGENTS.md](AGENTS.md) explains how to coordinate the five roles, maintain the scientist's continuous record, protect each student's fresh reading, and track review scope and versions. It is intended for the coordinating assistant; do not include project-specific coordination notes in a fresh student's reading material.
+
 ## Start a paper
 
 Clone this repository, then make these files available to the assistant working on the paper:
@@ -24,7 +26,7 @@ git clone https://github.com/michaelcadilhac/tcs-writer.git
 
 You can reference this checkout directly or copy the five role files into a dedicated directory in the paper's workspace. If the workspace already has instructions, integrate references to these files rather than overwriting them. Keep the five files together because the role instructions refer to WRITER.md.
 
-These filenames do not automatically create agents or activate a workflow. Explicitly ask the assistant to read the applicable files and perform a particular task. If separate agents are available and you want them, explicitly request them. A single assistant can apply the instructions too, but must not claim independent reviews or an isolated fresh reading that did not occur.
+The five role filenames do not themselves create agents. Ask the coordinating assistant to follow AGENTS.md, read the applicable role files, and perform a particular task. If separate agents are available and you want them, explicitly request them. A single assistant can apply the instructions too, but must not claim independent reviews or an isolated fresh reading that did not occur.
 
 Supply a short brief for the particular paper, covering:
 
