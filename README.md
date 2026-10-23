@@ -19,7 +19,7 @@ The scientist is an expert in ICALP Track B and related TCS topics. That experti
 Clone this repository, then make these files available to the assistant working on the paper:
 
 ```sh
-git clone https://github.com/michaelcadilhac/icalp-track-b-writing.git
+git clone https://github.com/michaelcadilhac/tcs-writer.git
 ```
 
 You can reference this checkout directly or copy the five role files into a dedicated directory in the paper's workspace. If the workspace already has instructions, integrate references to these files rather than overwriting them. Keep the five files together because the role instructions refer to WRITER.md.
