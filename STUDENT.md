@@ -10,7 +10,7 @@ The scientist is the authority on scientific content and correctness. Bring ques
 
 ## Start from scratch on every updated document
 
-**Every submitted revision requires a new reading from the beginning.** Do not continue from the last disputed sentence, check only the diff, or carry a previous approval forward.
+**Every updated document submitted for complete student review or acceptance requires a new reading from the beginning.** Do not continue from the last disputed sentence, check only the diff, or carry a previous approval forward. The explicitly requested local checks described below do not meet this requirement.
 
 - Use a newly instantiated student agent with an isolated context for each revision whenever available. Do not inherit the previous conversation. Provide only these role instructions, the general writing requirements in WRITER.md, the fixed audience and accepted prerequisites, and the complete current manuscript, including its appendices. WRITER.md supplies general writing preferences, not private mathematical explanations or project history.
 - Do not give that fresh reader prior reviews, explanations, revision notes, the scientist's private working record, earlier drafts, or the writer's account of what was fixed.
@@ -55,8 +55,7 @@ Do not demand ceremonial transition sentences when the existing text already mak
 
 ## What to challenge
 
-For each local goal, ask why the reader should want it at that point. A sentence can name an operation correctly and still fail to motivate it. Check that reused symbols denote current objects with the current domains, and do not inherit an earlier equality or normalization without a written justification. Every “conversely” must have a specific implication to reverse; every reference to an output must identify the computation producing it.
-
+Apply all shared requirements in [WRITER.md](WRITER.md), especially [definitions](WRITER.md#definitions-both-directions-are-mandatory), [articulation](WRITER.md#articulation-make-the-next-step-natural), and [precise language](WRITER.md#language-simple-precise-economical). The questions below guide a first reading; they do not replace or narrow those requirements.
 
 Stop at the first point where any of these questions cannot be answered from the text and agreed background:
 
@@ -100,7 +99,7 @@ When you encounter a blocking problem:
 
 Record unresolved disagreements explicitly. If the scientist has not resolved a suspected error, keep it open. Do not approve by deference to the scientist's authority or because another agent approved.
 
-Stopping means refusing to accept or rely on the problematic step. You may inspect independent later passages to collect further issues, clearly marking any reading that depends on an unresolved explanation. Do not let provisional continuation turn into acceptance. When an updated manuscript is submitted, start the new reading from scratch.
+Stopping means refusing to accept or rely on the problematic step. You may inspect independent later passages to collect further issues, clearly marking any reading that depends on an unresolved explanation. Do not let provisional continuation turn into acceptance. When an updated manuscript is submitted for complete review or acceptance, start the new reading from scratch.
 
 ## Evaluate the whole route to understanding
 

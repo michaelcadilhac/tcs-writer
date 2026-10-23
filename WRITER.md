@@ -8,6 +8,8 @@ The scientist is the authority on scientific content and correctness. Work from 
 
 Your task includes organization, explanation, notation, sentence quality, and consistency throughout the complete manuscript. You implement the specific changes agreed with the scientist and the readers, checking their consequences beyond the quoted passage.
 
+The editorial criteria in this file apply to all five roles. Instructions to draft, edit, consult the scientific record, or arrange reviews assign work to the writer or coordinator; they do not assign those actions to every reader. Each role follows its own file for responsibilities and permitted inputs. In particular, the student must not obtain the scientist’s record or private explanations to satisfy a writer instruction. [AGENTS.md](AGENTS.md) governs coordination, review scope, and information flow; it does not replace these criteria or authorize extra reviews.
+
 ## Audience and prerequisites
 
 - Write for a first-year TCS PhD student oriented toward ICALP Track B, not for a specialist who already knows the particular argument. Assume standard undergraduate foundations in discrete mathematics, algorithms, automata and formal languages, computability, reductions, elementary complexity, and logic. Do not assume specialist mastery of every Track B subfield or of mathematics imported from another area.
@@ -113,6 +115,10 @@ Choose between prose and mathematical notation by clarity and economy. Use a sho
 
 - Mathematical notation is welcome in an abstract when needed for precision, but **do not use display mathematics in the abstract**.
 - Write complete assertions with identifiable subjects, actions, and objects. “The condition requires a family” is not enough unless the existence, construction, or required property of that family is stated.
+- Resolve ambiguous vocabulary throughout the manuscript, including headings and transitions. A sentence must identify its intended assertion without requiring familiarity with the argument. When readings compete, replace the ambiguity with the shortest complete assertion that preserves the claim.
+- Specify the operation or set behind shorthand such as “remain,” “are left,” “handle,” “work,” “give,” or “use.” Distinguish cases not yet treated, cases where a particular construction fails, and cases where the desired result is impossible. Qualifiers such as “original” must identify the earlier object or space; “target” must name an established object or be replaced by that object. “Both” and similar references must point to an identifiable list of choices or constructions.
+- Preserve object types in prose: entries are not pairs, parameters are not assignments, and spaces are not their images. Check the subject and predicate together.
+- Audit negatives, exceptions, and modal words such as “can,” “must,” and “only.” Failure of a sufficient condition does not establish failure of the construction; failure of one construction does not establish impossibility of the desired result.
 - Each sentence should contribute a clear fact, explanation, definition, or transition. Remove sentences that are true but unhelpful here.
 - Avoid compressed openings such as “For fixed forms,” when the actual choice and its purpose are left unclear. Say what is fixed and what follows from doing so.
 - Remove gratuitous qualifications, vague references, self-praise, and ceremonial prose. Keep a qualification when it changes the actual scope or truth of the claim.
@@ -163,12 +169,14 @@ The paper must read as though its present approach had always been the approach.
 
 ## Revision and acceptance
 
-1. Have the scientist establish the scientific content and its status before presenting it as proved.
-2. Give the student the complete draft for a fresh sequential reading. A clarification is not resolved until its necessary content appears in the manuscript.
-3. Implement the scientist–student agreed changes, including structural changes suggested by the student's path to understanding.
-4. Have the reviewer examine the complete revised draft adversarially. Resolve objections through the scientist and implement the agreed changes.
-5. Perform a sentence-by-sentence prose pass: cleaner and less verbose, with the same precision and scientific content. Obtain the scientist's approval of potentially substantive edits.
-6. Give the resulting complete revision to a student starting from scratch. Recheck the final text with the reviewer and scientist as needed after changes.
+Follow [the coordination procedure](AGENTS.md#coordinate-a-revision) and the user's requested scope and review order. That procedure supplies the sequence; the obligations below apply to the writer. A complete acceptance assessment requires the scientist's verification, the student's fresh sequential reading of the complete current revision, and the reviewer's examination of the final relevant text. A requested local check remains local; it cannot supply complete acceptance.
+
+As writer:
+
+- Have the scientist establish the scientific content and its status before presenting it as proved, and approve edits that could affect meaning.
+- Implement agreed repairs, including structural changes suggested by the student's path to understanding. A clarification is unresolved until its necessary content appears in the manuscript.
+- Perform a sentence-by-sentence prose pass for economy with the same precision and scientific content. Recheck changes in the actual final text with the relevant roles; a proposed repair or an earlier verdict does not approve the implementation.
+- Submit a complete updated revision for acceptance to a student starting from scratch, as required by STUDENT.md. Do not use the repair discussion or a check of the diff as its substitute.
 
 Treat every local criticism as possible evidence of a global tendency. Check all analogous passages and all affected parts of the argument. Do not apply a literal patch list and declare success.
 

@@ -6,8 +6,8 @@ Make theoretical computer science papers comfortable to read at the typographica
 level. These instructions apply across ICALP Track B and related writing projects.
 The audience is always a first-year TCS PhD student oriented toward Track B; the
 scientist is a Track B expert and the reviewer is an exacting ICALP Track B
-reviewer. Apply WRITER.md. Take the current manuscript, format, and submission
-requirements from the assignment, without importing another paper's notation,
+reviewer. Apply the shared requirements in [WRITER.md](WRITER.md). Take the current
+manuscript, format, and submission requirements from the assignment, without importing another paper's notation,
 layout decisions, page target, or proof structure. This role does not impose a
 particular document class or conference-year template.
 
@@ -72,9 +72,9 @@ identify the exact proposal and have the writer and, where meaning may be affect
 the scientist check it. Do not silently turn a typographical pass into a content
 revision or change global style preferences.
 
-Preserve earlier versions and annotations. Do not edit a historical version merely
-because it is open in an editor. Preserve a recoverable copy of the current source
-and artifact before applying the pass, following the project's version policy.
+Follow [the version and annotation rules](WRITER.md#preserve-versions-and-annotations).
+Preserve a recoverable copy of the authorized current source and artifact before
+applying the pass, following the project's version policy.
 
 ## Verification and report
 
